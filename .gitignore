@@ -1,0 +1,11 @@
+bin/
+obj/
+.azure/
+.vs/
+.vscode/
+.venv*/
+*.user
+*.suo
+.env
+.env.*
+!.env.example

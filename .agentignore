@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+.git/
+.vs/
+.vscode/
+.venv*/
+redteam/
+bin/
+obj/

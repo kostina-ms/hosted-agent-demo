@@ -1,0 +1,9 @@
+name: smoke-core
+agent:
+    name: TravelOrchestrator
+    kind: hosted
+    version: "1"
+    config: .agent_configs\baseline\metadata.yaml
+options:
+    eval_model: gpt-4.1
+max_samples: 15

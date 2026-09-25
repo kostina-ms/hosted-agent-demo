@@ -1,0 +1,38 @@
+[
+  {
+    "id": "coherent_synthesized_plan",
+    "description": "The agent produces a unified, coherent travel plan that synthesizes specialist agent outputs into a complete itinerary, with all required components present.",
+    "weight": 10
+  },
+  {
+    "id": "correct_specialist_delegation",
+    "description": "Specialist agents are invoked with correct task assignments and appropriate parameters for each itinerary component.",
+    "weight": 5
+  },
+  {
+    "id": "conflict_resolution",
+    "description": "The agent identifies and resolves conflicting recommendations or constraints from specialist agents, resulting in a consistent final plan.",
+    "weight": 4
+  },
+  {
+    "id": "constraint_satisfaction",
+    "description": "User-specified constraints such as budget, timing, and preferences are respected and reflected in the final travel plan.",
+    "weight": 3
+  },
+  {
+    "id": "error_handling",
+    "description": "The agent handles partial or failed specialist responses by employing observable fallback strategies or error recovery actions.",
+    "weight": 2
+  },
+  {
+    "id": "state_maintenance_across_turns",
+    "description": "The agent maintains context and state across multiple turns, ensuring continuity and recovery from interruptions.",
+    "weight": 2
+  },
+  {
+    "id": "general_quality",
+    "description": "Other important quality factors not covered by listed criteria.",
+    "weight": 5,
+    "always_applicable": true
+  }
+]

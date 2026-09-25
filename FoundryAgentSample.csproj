@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>ffe68ba6-648d-4389-ba9f-b61d960c9ad1</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.21.0" />
+    <PackageReference Include="Azure.Monitor.OpenTelemetry.Exporter" Version="1.7.0" />
+    <PackageReference Include="Microsoft.Agents.AI.DevUI" Version="1.15.0-preview.260722.1" />
+    <PackageReference Include="Microsoft.Agents.AI.Foundry.Hosting" Version="1.15.0-preview.260722.1" />
+    <PackageReference Include="Microsoft.Agents.AI.Workflows" Version="1.15.0" />
+    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.15.3" />
+  </ItemGroup>
+
+</Project>
