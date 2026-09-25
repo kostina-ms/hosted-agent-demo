@@ -4,6 +4,8 @@ obj/
 .vs/
 .vscode/
 .venv*/
+__pycache__/
+*.py[cod]
 *.user
 *.suo
 .env
