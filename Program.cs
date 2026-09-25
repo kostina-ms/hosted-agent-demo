@@ -43,8 +43,8 @@ var modelName = Environment.GetEnvironmentVariable("AZURE_AI_MODEL_DEPLOYMENT_NA
 const string agentTelemetrySource = "FoundryAgentSample.Agents";
 
 #pragma warning disable MAAI001
-// The third constructor argument enables prompt and response content in telemetry.
-OpenTelemetryAgent InstrumentAgent(AIAgent agent) => new(agent, agentTelemetrySource, true);
+OpenTelemetryAgent InstrumentAgent(AIAgent agent) =>
+    new(agent, agentTelemetrySource) { EnableSensitiveData = true };
 #pragma warning restore MAAI001
 
 // Set up OpenTelemetry tracing to export to Application Insights
